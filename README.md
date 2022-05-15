@@ -10,3 +10,4 @@ Comando para rodar no terminal para o sass. Você precisa rodar esse comando na 
 sass --watch scss:css
 ```
 
+[Layout de base](https://taneycreative.com/wp-content/uploads/2019/03/home-web-design-simply-home-decorating.jpg)

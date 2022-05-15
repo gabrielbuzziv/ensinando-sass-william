@@ -1,0 +1,28 @@
+.about {
+  background: #fff;
+}
+.about > .wrapper > header {
+  background: #F5F4F2;
+  border: 20px solid #fff;
+  padding: 50px;
+  max-width: 700px;
+  width: 100%;
+  transform: translateY(-100px);
+}
+.about > .wrapper > header span {
+  font-size: 20px;
+}
+.about > .wrapper > header span::after {
+  content: "";
+  display: flex;
+  width: 10%;
+  background: red;
+  height: 4px;
+  margin-top: 10px;
+}
+.about > .wrapper > header p {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+/*# sourceMappingURL=about.css.map */

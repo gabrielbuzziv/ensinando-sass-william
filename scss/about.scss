@@ -1,0 +1,37 @@
+.about {
+  background: #fff;
+
+  > .wrapper {
+    > header {
+      background: #F5F4F2;
+      border: 20px solid #fff;
+  
+      padding: 50px;
+      max-width: 700px;
+      width: 100%;
+
+      transform: translateY(-100px);
+
+      span {
+        font-size: 20px;
+
+        &::after {
+          content: '';
+
+          display: flex;
+
+          width: 10%;
+          background: red;
+          height: 4px;
+
+          margin-top: 10px;
+        }
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 22px;
+      }
+    }
+  }
+}
